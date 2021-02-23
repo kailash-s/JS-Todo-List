@@ -20,8 +20,8 @@ for (i = 0; i < close.length; i++) {
 function newAdd() {
   var li = document.createElement("li");
   var inputValue = document.getElementById("myInput").value;
-  var t = document.createTextNode(inputValue);
-  li.appendChild(t);
+  var TextNode = document.createTextNode(inputValue);
+  li.appendChild(TextNode);
   if (inputValue === '') {
     alert("Nothing came through fam");
   } else {
