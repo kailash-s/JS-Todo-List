@@ -1,11 +1,10 @@
 /* Include the padding and border in an element's total width and height */
-* {
-  box-sizing: border-box;
-}
+* {box-sizing: border-box;}
+
 
 /* Remove margins and padding from the list */
 ul {
-  margin: 0;
+  margin: 0; 
   padding: 0;
 }
 
@@ -114,3 +113,16 @@ input {
 .addBtn:hover {
   background-color: #bbb;
 }
+
+.flex-box {
+  display: flex;
+}
+
+.flex-child {
+  flex: 1;
+  border: 2px;
+}  
+
+.flex-child:first-child {
+  margin-right: 20px;
+} 
